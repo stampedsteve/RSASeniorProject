@@ -14,10 +14,16 @@ These heptgraphs are able to work with up to 5 digit primes without losing data 
   
   ======replit online IDE
  
+ How to Run Program:
+ 
+ In any IDE capable of running python files:
+ 
  When the code is run it will ask you for a p and q which must be prime numbers inbetween 137 and 54601
  After displaying the common factors of the euler totient it will ask you for a two digit number that does not share any of those factors
  The last thing the program will ask for is a message that has no spaces or caps, however this program is capable of correcting spaces and caps
  The program will then run through the encode and decode process and display most of the operations going on behind the scenes
+ 
+ 
  
  Limitations
   Because of the increasing length of the ciphernumber with an increasingly large p and q the limit for the primes is 54601
@@ -26,6 +32,7 @@ These heptgraphs are able to work with up to 5 digit primes without losing data 
   The function could be sped up significantly if a faster modulus function is found, as this takes the bulk of the time
   
  Acknowledgements
+ 
   First 10,000 primes https://primes.utm.edu/lists/small/10000.txt
   
   RSA article https://en.wikipedia.org/wiki/RSA_(cryptosystem)
